@@ -13,8 +13,7 @@ class Login extends React.PureComponent<LoginProps> {
     public render() {
         return (
             <React.Fragment>
-                <div> test: {this.props.rememberMe} </div>
-
+                
             </React.Fragment>
         );
     }

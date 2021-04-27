@@ -9,12 +9,20 @@ type CounterProps =
     typeof CounterStore.actionCreators &
     RouteComponentProps<{}>;
 
+
+class Test extends React.Component {
+    public render() {
+        return <b>Classssssss</b>;
+    }
+}
+
 class Counter extends React.PureComponent<CounterProps> {
     public render() {
         return (
             <React.Fragment>
                 <h1>Counter</h1>
-
+                <Test> </Test>
+                
                 <p>This is a simple example of a React component.</p>
 
                 <p aria-live="polite">Current count: <strong>{this.props.count}</strong></p>

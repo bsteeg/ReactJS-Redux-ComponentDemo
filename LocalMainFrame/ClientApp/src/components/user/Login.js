@@ -22,11 +22,7 @@ var Login = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     Login.prototype.render = function () {
-        return (React.createElement(React.Fragment, null,
-            React.createElement("div", null,
-                " test: ",
-                this.props.rememberMe,
-                " ")));
+        return (React.createElement(React.Fragment, null));
     };
     return Login;
 }(React.PureComponent));
