@@ -24,10 +24,12 @@ export const reducer: Reducer<LoginState> = (state: LoginState | undefined, inco
     if (state === undefined) {
         return { rememberMe: false };
     }
+    
 
     const action = incomingAction as KnownAction;
     switch (action.type) {
         case 'TOGGLE_REMEMBERME':
+            console.log(!state.rememberMe );
             return { rememberMe: !state.rememberMe };
         default:
             return state;
