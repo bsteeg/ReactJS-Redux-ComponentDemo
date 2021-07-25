@@ -1,8 +1,10 @@
 ﻿import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps } from 'react-router';
-import { ApplicationState } from '../../store';
-import * as LoginStore from '../../store/user/Login';
+import { ApplicationState } from '../store';
+
+// Login Component 
+import * as LoginStore from '../store/Login';
 import './Login.css';
 
 type LoginProps =

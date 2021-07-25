@@ -1,6 +1,6 @@
 import * as WeatherForecasts from './WeatherForecasts';
 import * as Counter from './Counter';
-import * as Login from './user/Login';
+import * as Login from './Login';
 
 // The top-level state object
 export interface ApplicationState {

@@ -6,7 +6,7 @@ import Counter from './components/Counter';
 import FetchData from './components/FetchData';
 
 // self made.
-import Login from './components/user/Login';
+import Login from './components/Login';
 
 import './custom.css'
 
